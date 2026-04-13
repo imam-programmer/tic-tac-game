@@ -1,61 +1,37 @@
-@media (min-width: 300px) and (max-width: 575px) {
-  .box {
-    width: 15vh;
-    height: 15vh;
-    font-size: 20px;
-  }
-  #reset-btn {
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-size: 14px;
-  }
-  .but-con {
-    height: 50vh;
-    width: 60vh;
-    column-gap: 10px;
-  }
-  .containet {
-    height: 60vh;
-  }
-  #new-btn {
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-size: 14px;
-  }
-  #msg {
+ @media (min-width: 300px) and (max-width: 575px) {
+ #msg {
     font-size: 30px;
     color: white;
-    margin-bottom: 10px;
-  }
-  .msg-container {
-    height: 130px;
-  }
+    margin-bottom: 20px;
 }
-@media (min-width: 576px) and (max-width: 767px) {
-  #msg {
-    font-size: 41px;
-    margin-bottom: 15px;
-    margin-top: -10px;
-  }
-  .msg-container {
-    height: 135px;
-  }
+.box {
+    width: 86px;
+    height: 80px;
+   
+}
+.but-con {
+    height: 270px;
+    
+}
+#new-btn {
+    padding: 9px 15px;
+    font-size: 16px;
+}
+.msg-container {
+    height: 140px;
+}
+.containet {
+    height: 305px;
+}
+}
 
-  .box {
-    width: 18vh;
-    height: 18vh;
-    font-size: 20px;
-  }
-  .but-con {
-    height: 60vh;
-    width: 60vh;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 5px;
-  }
+ @media (min-width: 390px) and (max-width: 575px) {
+ .but-con {
+    width: 373px;
 }
-@media (min-width: 767px) and (max-width: 1400px) {
+}
+
+/*@media (min-width: 767px) and (max-width: 1400px) {
   #msg {
     font-size: 50px;
     margin-bottom: 20px;
@@ -77,4 +53,4 @@
     flex-wrap: wrap;
     column-gap: 5px;
   }
-}
+} */
