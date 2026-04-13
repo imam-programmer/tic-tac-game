@@ -1,0 +1,80 @@
+@media (min-width: 300px) and (max-width: 575px) {
+  .box {
+    width: 15vh;
+    height: 15vh;
+    font-size: 20px;
+  }
+  #reset-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .but-con {
+    height: 50vh;
+    width: 60vh;
+    column-gap: 10px;
+  }
+  .containet {
+    height: 60vh;
+  }
+  #new-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  #msg {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .msg-container {
+    height: 130px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #msg {
+    font-size: 41px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+  }
+  .msg-container {
+    height: 135px;
+  }
+
+  .box {
+    width: 18vh;
+    height: 18vh;
+    font-size: 20px;
+  }
+  .but-con {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1400px) {
+  #msg {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .msg-container {
+    height: 150px;
+  }
+
+  .box {
+    width: 18vh;
+    height: 18vh;
+    font-size: 30px;
+  }
+  .but-con {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+}

@@ -1,14 +1,11 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
 h1{
-    color: rgb(199, 26, 188);
+    color: rgb(220, 217, 205);
     margin-bottom: 20px;
 }
 body{
     background-color: rgba(49, 10, 10, 0.762);
     text-align: center;
+     background-image: radial-gradient(circle,red,blue);
 }
 .containet{
    height: 70vh;
@@ -21,7 +18,7 @@ body{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   column-gap: 15px;
+   column-gap: 10px;
 }
 .box{
     width: 18vh;
