@@ -30,27 +30,3 @@
     width: 373px;
 }
 }
-
-/*@media (min-width: 767px) and (max-width: 1400px) {
-  #msg {
-    font-size: 50px;
-    margin-bottom: 20px;
-  }
-  .msg-container {
-    height: 150px;
-  }
-
-  .box {
-    width: 18vh;
-    height: 18vh;
-    font-size: 30px;
-  }
-  .but-con {
-    height: 60vh;
-    width: 60vh;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 5px;
-  }
-} */
